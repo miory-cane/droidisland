@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DroidIsland</string>
+    <string name="overlay_service_title">DroidIsland активен</string>
+    <string name="overlay_service_description">Динамический остров готов к взаимодействию</string>
+    <string name="channel_name">Служба динамического острова</string>
+    <string name="channel_description">Уведомление фоновой службы оверлея DroidIsland</string>
+    <string name="accessibility_service_desc">Отображение динамического островка с наивысшим приоритетом поверх шторки уведомлений, статус-бара и всех экранов.</string>
+</resources>
