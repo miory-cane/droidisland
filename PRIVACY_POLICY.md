@@ -1,27 +1,76 @@
 # Privacy Policy for DroidIsland
 
-**Last updated:** November 2026
+**Effective Date:** November 9, 2026  
+**Last Updated:** November 9, 2026
 
-DroidIsland ("we", "our", or "the app") provides a dynamic floating overlay experience on Android devices. We value your privacy and are committed to protecting it.
+**DroidIsland** ("the Application", "we", "our", or "us") provides a floating interactive camera cutout overlay (dynamic island) for Android devices. We are committed to transparency and the highest standards of user privacy.
 
-## 1. Information Collection and Use
-DroidIsland is designed to operate locally on your device:
-- **No Personal Data Collected:** We do not collect, store, transmit, or sell any personally identifiable information (such as your name, email address, phone number, or location).
-- **No Tracking:** We do not use third-party analytics trackers, advertising IDs, or behavioral profiling tools.
+This Privacy Policy explains how information is handled when you use the Application.
 
-## 2. Permissions Explained
-To function properly, DroidIsland requests specific Android permissions:
-- **SYSTEM_ALERT_WINDOW ("Display over other apps"):** This permission is strictly used to display the dynamic island capsule overlay around your device's camera cutout while you are using other applications. No screen content is captured, read, or recorded.
-- **FOREGROUND_SERVICE:** Used to maintain the dynamic island overlay active and responsive in the background without being killed by the Android OS.
+---
+
+## 1. Information Collection and Transmission: Zero Data Collection
+
+- **No Personal Data Collected:** DroidIsland does not collect, record, harvest, transmit, or share any personally identifiable information (such as your name, email, device identifiers, IP address, or physical location).
+- **No Third-Party Analytics or Advertising:** We do not integrate third-party advertising networks, analytical trackers, user tracking SDKs, or profiling telemetry.
+- **No External Servers:** The Application functions entirely offline and on-device. It does not communicate with any external backend servers or cloud services.
+
+---
+
+## 2. Explanation of Android Permissions & Services
+
+DroidIsland requests only the permissions strictly necessary to render and control the dynamic island overlay around the device camera cutout:
+
+### A. Accessibility Service API (`android.permission.BIND_ACCESSIBILITY_SERVICE`)
+- **Purpose:** Used strictly to detect window state transitions (such as full-screen video playback, games, or device orientation changes) and automatically realign the floating capsule with the physical display cutout (`WindowInsets.displayCutout`), or temporarily hide the island when an app requests exclusive full-screen focus.
+- **Privacy Assurance:** The Accessibility Service **does NOT** read, monitor, record, or transmit user keystrokes, passwords, typed text, screen content, or financial information. All accessibility events are processed ephemerally in RAM on your device and are never saved to disk or transmitted over any network.
+
+### B. Display Over Other Apps (`android.permission.SYSTEM_ALERT_WINDOW`)
+- **Purpose:** Enables the Application to draw the dynamic island capsule on top of running applications around your camera cutout.
+- **Privacy Assurance:** This permission is strictly utilized for floating UI presentation. It does not capture screenshots, record the screen, or monitor background application data.
+
+### C. Foreground Service (`android.permission.FOREGROUND_SERVICE_SPECIAL_USE`)
+- **Purpose:** Keeps the dynamic island overlay active and responsive in the background so that notifications, playback controls, and battery indicators remain accessible without system termination.
+- **Notification:** A persistent system notification is displayed while the overlay service is running, allowing you to stop the service at any time.
+
+### D. Notification Listener Service (`android.permission.BIND_NOTIFICATION_LISTENER_SERVICE`)
+- **Purpose:** When enabled by the user, this allows DroidIsland to detect active media playback sessions (such as Spotify, YouTube Music, or podcast players) to display album art, track title, and media controls in the expanded island capsule.
+- **Privacy Assurance:** DroidIsland does not inspect, read, or store the text or attachments of personal messages, emails, or sensitive notifications.
+
+### E. Bluetooth Connect (`android.permission.BLUETOOTH_CONNECT`)
+- **Purpose:** Declared with the `neverForLocation` flag. Used exclusively to identify when Bluetooth audio accessories (such as headphones or earbuds) are paired or connected, and to display their connection status inside the island capsule.
+- **Privacy Assurance:** The Application does not track your location or monitor Bluetooth beacon telemetry.
+
+---
 
 ## 3. Local Data Storage
-The app stores calibration parameters (camera X/Y coordinates, cutout diameter, and island dimensions) locally on your device using Android Jetpack DataStore. This data never leaves your device and is erased when the application is uninstalled or app storage is cleared.
 
-## 4. Children’s Privacy
-DroidIsland does not address anyone under the age of 13 and does not knowingly collect personally identifiable information from children.
+DroidIsland saves user preferences and calibration settings (such as X/Y offsets, capsule dimensions, and enabled module toggles) locally on your device using encrypted Android Jetpack DataStore:
+- Settings data never leaves your device.
+- All stored data is immediately and permanently deleted when you uninstall the Application or choose "Clear Storage" in your device's application settings.
 
-## 5. Changes to This Privacy Policy
-We may update our Privacy Policy from time to time. Any changes will be posted on this page.
+---
 
-## 6. Contact Us
-If you have any questions or suggestions about our Privacy Policy, please contact us via the app support page on Google Play.
+## 4. Children's Online Privacy Protection
+
+DroidIsland is not directed to children under the age of 13. We do not knowingly collect or maintain any personal information from children.
+
+---
+
+## 5. Security
+
+We take the security of your device seriously. Because DroidIsland operates completely offline without transmitting data across networks or storing sensitive data on remote servers, your device state remains isolated and safe from unauthorized external access.
+
+---
+
+## 6. Changes to This Policy
+
+We may update this Privacy Policy from time to time to reflect changes in our practices or Android platform requirements. The updated policy will always be available in our GitHub repository and linked on the Google Play Store listing.
+
+---
+
+## 7. Contact Us
+
+If you have questions, feedback, or concerns regarding this Privacy Policy, please open an issue in the official GitHub repository or reach out via the developer contact email listed on the Google Play Store page:
+- **GitHub Issues:** [https://github.com/miory-cane/DroidIsland/issues](https://github.com/miory-cane/DroidIsland/issues)
+- **Email:** support-droidisland@proton.me
