@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/miory-cane/droidisland/releases/latest/download/app-release.apk">
+  <a href="https://drive.google.com/file/d/16On-QZez1SmGpZOxPcuw31WzMKOQvJf6/view?usp=drivesdk">
     <img src="https://img.shields.io/badge/📥_Download_APK-v1.0.0_Direct_Download-2EA44F?style=for-the-badge&logo=android" alt="Direct APK Download">
   </a>
 </p>
