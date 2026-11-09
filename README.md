@@ -18,6 +18,19 @@
   <a href="https://boosty.to/droidisland_miory"><img src="https://img.shields.io/badge/Donate-Boosty-F15F2C?style=flat-square" alt="Support on Boosty"></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/miory-cane/droidisland/releases/latest/download/app-release.apk">
+    <img src="https://img.shields.io/badge/📥_Download_APK-v1.0.0_Direct_Download-2EA44F?style=for-the-badge&logo=android" alt="Direct APK Download">
+  </a>
+</p>
+
+---
+
+## 📥 Скачать приложение / Download APK
+
+- 🚀 **[Прямая ссылка на скачивание готового APK (GitHub Releases)](https://github.com/miory-cane/droidisland/releases/latest/download/app-release.apk)**
+- 📦 **[Страница всех версий и релизов](https://github.com/miory-cane/droidisland/releases)**
+
 ---
 
 ## 🌟 Overview
