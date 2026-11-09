@@ -28,9 +28,7 @@
 
 ## 📥 Скачать приложение / Download APK
 
-- 🚀 **[Прямая ссылка на скачивание готового APK (GitHub Releases)](https://github.com/miory-cane/droidisland/releases/latest/download/app-release.apk)**
-- 📦 **[Страница всех версий и релизов](https://github.com/miory-cane/droidisland/releases)**
-
+- 🚀 **[Ссылка на скачивание готового APK (Google Drive)](https://drive.google.com/file/d/16On-QZez1SmGpZOxPcuw31WzMKOQvJf6/view?usp=drivesdk)**
 ---
 
 ## 🌟 Overview
