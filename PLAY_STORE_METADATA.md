@@ -48,6 +48,8 @@ DroidIsland превращает вырез фронтальной камеры 
 • Приложение работает полностью локально на вашем смартфоне.
 • Никаких трекеров, аналитики, рекламы и отправки данных в интернет.
 • Все настройки сохраняются только на вашем устройстве в Jetpack DataStore.
+
+💖 Поддержать автора и разработку: https://boosty.to/droidisland_miory
 ```
 
 ---
@@ -94,6 +96,8 @@ DroidIsland transforms your Android smartphone's camera punch-hole cutout into a
 • Operates completely offline on your device.
 • Zero data collection, no telemetry, no tracking IDs, and no third-party ads.
 • Configuration stored strictly in local Jetpack DataStore.
+
+💖 Support project development: https://boosty.to/droidisland_miory
 ```
 
 ---

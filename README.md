@@ -15,6 +15,7 @@
   <a href="https://developer.android.com/jetpack/compose"><img src="https://img.shields.io/badge/Jetpack_Compose-Material_You_Expressive-4285F4?style=flat-square&logo=jetpackcompose" alt="Compose"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a>
   <a href="PRIVACY_POLICY.md"><img src="https://img.shields.io/badge/Privacy-100%25_On--Device-success?style=flat-square" alt="Privacy"></a>
+  <a href="https://boosty.to/droidisland_miory"><img src="https://img.shields.io/badge/Donate-Boosty-F15F2C?style=flat-square" alt="Support on Boosty"></a>
 </p>
 
 ---
@@ -157,6 +158,16 @@ DroidIsland is engineered with a strict **Privacy-First** architecture:
 - 💾 **Local Data Only:** All settings and calibration parameters are stored locally on-device in Jetpack DataStore and wiped upon uninstall.
 
 See [PRIVACY_POLICY.md](PRIVACY_POLICY.md) and [PLAY_STORE_METADATA.md](PLAY_STORE_METADATA.md) for full compliance disclosures.
+
+---
+
+## 💖 Поддержка проекта / Support
+
+Если вам нравится **DroidIsland** и вы хотите поддержать дальнейшую разработку новых модулей и анимаций:
+
+👉 **[Поддержать автора на Boosty (boosty.to/droidisland_miory)](https://boosty.to/droidisland_miory)**
+
+Ваша поддержка помогает тестировать приложение на новых устройствах и регулярно выпускать обновления!
 
 ---
 
